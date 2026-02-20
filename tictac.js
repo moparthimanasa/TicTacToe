@@ -32,6 +32,7 @@ boxes.forEach((box)=>{
     } else {
       box.innerText = 'X';
       box.style.color = "#003049"; 
+      turnO = true;
       turnMsg.innerText = "Player O's Turn"; 
     }
     box.disabled = true;
